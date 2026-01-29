@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - Leap Smart</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .lang-content { display: none; }
+        .active-content { display: block; }
+        /* 确保长文档排版清晰 */
+        .policy-body h2 { font-size: 1.5rem; font-weight: 700; margin-top: 2rem; margin-bottom: 1rem; color: #1e293b; border-left: 4px solid #2563eb; padding-left: 0.75rem; }
+        .policy-body h3 { font-size: 1.125rem; font-weight: 600; margin-top: 1.5rem; margin-bottom: 0.75rem; color: #334155; }
+        .policy-body p { margin-bottom: 1rem; color: #475569; line-height: 1.7; }
+        .policy-body ul { list-style-type: disc; padding-left: 1.5rem; margin-bottom: 1.25rem; }
+        .policy-body li { margin-bottom: 0.5rem; color: #475569; }
+        .policy-body strong { color: #1e293b; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans leading-relaxed">
+    <div class="max-w-4xl mx-auto px-6 py-12 bg-white shadow-sm my-10 rounded-xl relative">
+        
+        <div class="flex flex-col md:flex-row justify-between items-center mb-10 border-b pb-6 gap-4">
+            <a href="index.html" class="text-blue-600 hover:underline flex items-center font-medium">
+                ← 返回首页 / Back to Home
+            </a>
+            <div class="inline-flex rounded-md shadow-sm">
+                <button onclick="toggleLang('zh')" id="btn-zh" class="px-6 py-2 text-sm font-bold bg-blue-600 text-white rounded-l-lg border border-blue-600 transition-all">中文</button>
+                <button onclick="toggleLang('en')" id="btn-en" class="px-6 py-2 text-sm font-bold bg-white text-slate-700 rounded-r-lg border border-slate-200 hover:bg-slate-50 transition-all">English</button>
+            </div>
+        </div>
+
+        <div id="content-zh" class="lang-content active-content policy-body">
+            <h1 class="text-3xl font-bold mb-2 text-slate-900">隐私政策</h1>
+            <p class="text-sm text-slate-400 mb-8">生效日期：2026年1月29日</p>
+            
+            <p>深圳市跃算智能科技有限公司（以下简称“跃算智能”、“我们”、“本公司”或“LeapSmart”）运营LeapSmart AI自动化跨境运营Agent平台（以下简称“服务”），这是一款面向跨境电商卖家的SaaS解决方案，通过AI驱动实现亚马逊、eBay、Temu、SHEIN、TikTok Shop等平台的运营自动化，包括实时监测、决策、自动执行和优化复盘。</p>
+            <p>我们致力于保护您的隐私，并以负责任的方式处理您的数据。本政策说明我们在您使用本网站（以下简称“网站”）和服务时，如何收集、使用、披露、存储和保护信息。</p>
+            <p>本政策遵守中华人民共和国《个人信息保护法》（PIPL）、亚马逊数据保护政策（DPP）、亚马逊Selling Partner API开发者协议及其他适用法律法规。</p>
+
+            <h2>1. 我们收集的信息</h2>
+            <p>我们仅收集为提供服务所需的信息，分为以下类别：</p>
+            <h3>a. 您直接提供的信息</h3>
+            <ul>
+                <li><strong>账户注册及资料：</strong>姓名、电子邮箱、公司名称、业务信息（如亚马逊卖家ID、市场区域）、电话号码（可选）以及订阅/支付信息（由第三方支付机构安全处理）。</li>
+                <li><strong>授权凭证：</strong>您通过OAuth或API密钥授权我们访问您的卖家账户。</li>
+                <li><strong>沟通数据：</strong>您联系支持、提交反馈或与AI对话时提供的信息（如运营偏好、策略设置）。</li>
+            </ul>
+            <h3>b. 来自集成平台的数据（如亚马逊SP-API）</h3>
+            <p>当您授权连接卖家账户时，我们仅访问并处理提供服务所需的业务数据，包括：</p>
+            <ul>
+                <li>产品Listing（ASIN、SKU、价格、Buy Box状态）。</li>
+                <li>库存水平、销售趋势、订单摘要（不包含买家个人信息，如姓名、地址、邮箱或电话）。</li>
+                <li>广告表现指标（ACoS、点击率、转化率、关键词、预算）。</li>
+                <li>其他运营数据（如绩效报告、物流状态、利润监控）。</li>
+            </ul>
+            <p><strong>我们不收集、不存储、不显示亚马逊买家个人可识别信息（PII），除非亚马逊DPP明确允许。我们仅在您授权范围内访问数据，且仅用于自动化运营（如广告调价、动态定价、库存预警）。</strong></p>
+            <h3>c. 自动收集的信息 </h3>
+            <ul>
+                <li>设备及使用数据：IP地址、浏览器类型、操作系统、设备标识、访问时间、浏览页面及交互日志。</li>
+                <li>Cookie及类似技术：用于身份验证、会话管理、分析和服务改进（您可通过浏览器设置管理）。</li>
+            </ul>
+            <h2>2. 我们如何使用您的信息</h2>
+            <p>我们仅将信息用于：</p>
+            <ul>
+                <li>提供、维护和改进服务（如实时监测、AI决策、授权操作的自动执行、绩效报告）。</li>
+                <li>验证账户并处理授权（如亚马逊SP-API OAuth）。</li>
+                <li>通过匿名聚合数据优化AI模型（不用于外部训练卖家特定数据，除非获得同意）。</li>
+                <li>与您沟通账户事宜、更新、支持请求、安全警报或法律通知。</li>
+                <li>防范欺诈、滥用，确保服务安全与合规。</li>
+                <li>内部分析、产品开发及行业洞察（匿名聚合，不识别您或您的业务）。</li>
+            </ul>
+            <p><strong>我们不出售您的数据，不用于第三方营销，也不将亚马逊买家数据用于授权服务功能以外的目的。</strong></p>
+
+            <h2>3. 信息的共享与披露</h2>
+            <p>我们不会分享您的个人或业务数据，除以下有限情形：</p>
+            <ul>
+                <li>与服务提供商（如AWS云托管、支付处理器、分析工具）共享，他们受合同约束，仅为我们目的使用并保护数据。</li>
+                <li>为实现API功能与亚马逊或其他平台共享（如通过SP-API执行授权操作）。</li>
+                <li>法律要求：如法律、传票、法院命令或政府要求；保护我们权利、安全或财产；或执行协议。</li>
+                <li>并购、资产出售等情形（必要时通知）。</li>
+                <li>经您明确同意的第三方集成。</li>
+            </ul>
+            <p><strong>我们不与未授权第三方分享亚马逊买家PII或您的敏感业务数据。所有共享符合亚马逊DPP。</strong></p>
+
+            <h2>4. 数据安全</h2>
+            <p>我们采取合理的技术和组织措施保护数据，包括：</p>
+            <ul>
+                <li>传输中加密（TLS 1.2+）及静态加密（AES-256+）。</li>
+                <li>API凭证安全存储（永不明文）。</li>
+                <li>访问控制、日志记录、监控及定期安全审计。</li>
+                <li>仅限授权人员访问。</li>
+                <li>员工数据保护培训及事件响应机制。</li>
+            </ul>
+            <p><strong>无任何传输或存储方式100%安全，我们无法保证绝对安全。</strong></p>
+            <h2>5. 数据保留</h2>
+            <p>我们仅在提供服务、履行法律义务或解决争议所需时间内保留数据。账户终止或删除请求后，我们将在合理期限内删除或匿名化数据（法律要求备份除外）。匿名聚合数据可用于更长分析。</p>
+
+            <h2>6. 您的权利与选择</h2>
+            <p>根据适用法律（如PIPL、GDPR若适用于欧盟/EEA用户）：</p>
+            <ul>
+                <li>访问、更正或删除您的个人信息。</li>
+                <li>撤回同意或限制处理。</li>
+                <li>反对某些使用（如营销）。</li>
+                <li>数据可携带。</li>
+                <li>向监管机构投诉。</li>
+            </ul>
+            <p>行使权利，请联系 privacy@leapsmart.cn。我们将在法定时限内响应。对于亚马逊相关数据，您可通过Seller Central直接撤销SP-API授权。</p>
+            <h2>7. 跨境数据传输</h2>
+            <p>作为中国公司，您的数据可能在中国或其他服务提供商所在地处理。我们使用标准合同条款等保障措施，确保跨境传输充分保护。</p>
+            <h2>8. 未成年人隐私</h2>
+            <p>服务不针对16岁以下儿童（或您辖区最低年龄）。我们不故意收集儿童数据。</p>
+            <h2>9. 本隐私政策的变更</h2>
+            <p>我们可能更新本政策。变更将在本页面发布，并更新日期。重大变更将通过邮件或应用内通知告知。</p>
+            <h2>10. 联系我们</h2>
+            <p>如对本政策有疑问，请联系：<br>
+            <strong>深圳市跃算智能科技有限公司</strong><br>
+            邮箱：privacy@leapsmart.cn<br></p>
+            <div class="legal-notice mt-10">
+                <p class="text-slate-900 font-bold mb-2">法律管辖与合规确认</p>
+                <p class="text-sm">1. 本隐私政策受中华人民共和国法律管辖。</p>
+                <p class="text-sm">2. 使用LeapSmart，即表示您知悉并同意本政策。</p>
+            </div>
+        </div>
+
+
+        <div id="content-en" class="lang-content policy-body">
+            <h1 class="text-3xl font-bold mb-2 text-slate-900">Privacy Policy</h1>
+            <p class="text-sm text-slate-400 mb-8">Last Updated: January 29, 2026</p>
+            
+            <p>Shenzhen LeapSmart Intelligent Technology Co., Ltd. (“LeapSmart”, “we”, “us”, or “our”) operates the LeapSmart AI Automation Agent platform (the “Service”), a SaaS solution that provides AI-driven automated operations for cross-border e-commerce sellers, including monitoring, decision-making, execution, and optimization across platforms such as Amazon, eBay, Temu, SHEIN, TikTok Shop, and others.</p>
+            <p>We are committed to protecting your privacy and handling your data responsibly. This Privacy Policy explains how we collect, use, disclose, store, and protect information when you use our website (the “Site”) and Service. By accessing or using the Service, you consent to the practices described in this Policy.</p>
+            <p>This Policy complies with applicable laws, including the People's Republic of China Personal Information Protection Law (PIPL), and Amazon's Data Protection Policy (DPP) and API Services Developer Agreement for integrations with Amazon Selling Partner API (SP-API) and other platforms.</p>
+
+            <h2>1. Information We Collect</h2>
+            <h3>a. Information You Provide Directly</h3>
+            <ul>
+                <li>Account registration and profile data: name, email address, company name, business details (e.g., Amazon Seller ID, marketplace regions), phone number (optional), and payment/subscription information (processed securely by third-party payment providers).</li>
+                <li>Authorization credentials: OAuth tokens or API keys you provide to authorize us to access your seller accounts on Amazon and other platforms.</li>
+                <li>Communication data: information you provide when contacting support, submitting feedback, or chatting with our AI interface (e.g., operational preferences, strategy settings).</li>
+            </ul>
+            <h3>b. Data from Integrated Platforms</h3>
+            <p>When you connect your seller account via OAuth or API authorization, we access and process only the specific business data necessary to provide the Service, including:</p>
+            <ul>
+                <li>Product listings (ASINs, SKUs, prices, Buy Box status).</li>
+                <li>Inventory levels, sales trends, order summaries (no buyer PII such as names, addresses, emails, or phone numbers).</li>
+                <li>Advertising performance metrics (ACoS, clicks, conversions, keywords, budgets).</li>
+                <li>Other operational data (e.g., performance reports, logistics status, profit monitoring)./li>
+            </ul>
+            <p><strong>We do not collect, store, or display Amazon buyer personal identifiable information (PII) unless explicitly permitted under Amazon's DPP. We only access data you authorize and only for the purposes of automated operations (e.g., ad bidding, dynamic pricing, inventory alerts).</strong></p>
+            <h3>c. Automatically Collected Information</h3>
+            <ul>
+                <li>Device and usage data: IP address, browser type, operating system, device identifiers, access times, pages viewed, and interaction logs.</li>
+                <li>Cookies and similar technologies: used for authentication, session management, analytics, and Service improvement (you can manage preferences via browser settings).</li>
+            </ul>
+
+            <h2>2. How We Use Your Information</h2>
+            <p>We use the collected information solely to:</p>
+            <ul>
+                <li>Provide, maintain, and improve the Service (e.g., real-time monitoring, AI decision-making, automatic execution of authorized actions like ad adjustments or pricing updates, performance reporting).</li>
+                <li>Authenticate your account and process authorizations (e.g., OAuth with Amazon SP-API).</li>
+                <li>Optimize AI models through aggregated, anonymized data (no personal or seller-specific data is used for external training without consent).</li>
+                <li>Communicate with you about your account, updates, support requests, security alerts, or legal notices.</li>
+                <li>Prevent fraud, abuse, and ensure Service security and compliance.</li>
+                <li>Aggregate and anonymize data for internal analytics, product development, and industry insights (without identifying you or your business).</li>
+            </ul>
+            <p><strong>We do not sell your data, use it for marketing third-party products, or use Amazon buyer data for any purpose beyond authorized Service functionality.</strong></p>
+            
+            <h2>3. Sharing and Disclosure of Information</h2>
+            <p>We do not share your personal or business data except in limited circumstances:</p>
+            <ul>
+                <li>With service providers (e.g., cloud hosting like AWS, payment processors, analytics tools) who are contractually bound to protect your data and use it only for our purposes.</li>
+                <li>With Amazon or other platforms as required for API functionality (e.g., to execute authorized actions via SP-API).</li>
+                <li>For legal compliance: if required by law, subpoena, court order, or government request; to protect our rights, safety, or property; or to enforce our agreements.</li>
+                <li>In connection with a merger, acquisition, or sale of assets (with notice where required).</li>
+                <li>With your explicit consent for third-party integrations.</li>
+            </ul>
+            <p><strong>We do not share Amazon buyer PII or your sensitive business data with unauthorized third parties. All sharing complies with Amazon's DPP.</strong></p>
+            <h2>4. Data Security</h2>
+            <p>We implement reasonable technical and organizational measures to protect your data, including:</p>
+            <ul>
+                <li>Encryption in transit (TLS 1.2+) and at rest (AES-256+).</li>
+                <li>Secure storage of API credentials (never in plain text).</li>
+                <li>Access controls, logging, monitoring, and regular security audits.</li>
+                <li>Restricted access to authorized personnel only.</li>
+                <li>Compliance with Amazon DPP requirements (e.g., data protection training, incident response).</li>
+            </ul>
+            <p><strong>No method of transmission or storage is 100% secure; we cannot guarantee absolute security.</strong></p>
+
+            <h2>5. Data Retention</h2>
+            <p>We retain your data only as long as necessary to provide the Service, comply with legal obligations, or resolve disputes. Upon account termination or data deletion request, we delete or anonymize your data within a reasonable period (except for legally required backups). Aggregated/anonymized data may be retained longer for analytics.</p>
+
+            <h2>6. Your Rights and Choices</h2>
+            <p>Depending on applicable law (e.g., PIPL, GDPR if you are in the EU/EEA):</p>
+            <ul>
+                <li>Access, correct, or delete your personal information.</li>
+                <li>Withdraw consent or restrict processing.</li>
+                <li>Object to certain uses (e.g., marketing).</li>
+                <li>Portability of your data.</li>
+                <li>Lodge a complaint with a supervisory authority.</li>
+            </ul>
+            <p>To exercise these rights, contact us at privacy@leapsmart.cn. We respond within statutory timeframes. For Amazon-related data, you can revoke SP-API authorizations directly via Seller Central.</p>
+            <h2>7. International Data Transfers</h2>
+            <p>As a China-based company, your data may be processed in China or other jurisdictions where our service providers operate. We use safeguards (e.g., standard contractual clauses) to ensure adequate protection for cross-border transfers.</p>
+            
+            <h2>8. Children's Privacy</h2>
+            <p>Our Service is not directed to children under 16 (or the minimum age in your jurisdiction). We do not knowingly collect data from children.</p>
+
+            <h2>9. Changes to This Privacy Policy</h2>
+            <p>We may update this Policy. Changes will be posted here with the updated date. Significant changes will be notified via email or in-app notice.</p>
+            <h2>10. Contact Us</h2>
+            <p>If you have questions about this Policy, contact: <strong>Shenzhen LeapSmart Intelligent Technology Co., Ltd.</strong><br>
+            Email: <a href="mailto:privacy@leapsmart.cn" class="text-blue-600">privacy@leapsmart.cn</a><br></p>
+
+            <div class="legal-notice mt-10">
+                <p class="text-slate-900 font-bold mb-2">Legal Jurisdiction and Compliance Confirmation</p>
+                <p class="text-sm">1. This Privacy Policy is governed by the laws of the People's Republic of China.</p>
+                <p class="text-sm">2. By using LeapSmart, you acknowledge and agree to this Policy.</p>
+        </div>
+    </div>
+
+    <script>
+        function toggleLang(lang) {
+            const zh = document.getElementById('content-zh');
+            const en = document.getElementById('content-en');
+            const bZ = document.getElementById('btn-zh');
+            const bE = document.getElementById('btn-en');
+            if(lang === 'zh') {
+                zh.classList.add('active-content'); en.classList.remove('active-content');
+                bZ.className = "px-6 py-2 text-sm font-bold bg-blue-600 text-white rounded-l-lg border border-blue-600 transition-all";
+                bE.className = "px-6 py-2 text-sm font-bold bg-white text-slate-700 rounded-r-lg border border-slate-200 hover:bg-slate-50 transition-all";
+            } else {
+                en.classList.add('active-content'); zh.classList.remove('active-content');
+                bE.className = "px-6 py-2 text-sm font-bold bg-blue-600 text-white rounded-r-lg border border-blue-600 transition-all";
+                bZ.className = "px-6 py-2 text-sm font-bold bg-white text-slate-700 rounded-l-lg border border-slate-200 hover:bg-slate-50 transition-all";
+            }
+        }
+    </script>
+</body>
+</html>
